@@ -1,54 +1,55 @@
 🚗 Sistema de Controle de Veículos (SCV)
 
-Aplicação desenvolvida em Java com o objetivo de gerenciar veículos por meio de uma interface interativa via console. O sistema permite realizar operações completas de cadastro, consulta, edição e remoção, garantindo organização e controle dos dados.
+DESENVOLVIDO POR: GABRIEL CARLOS RIGO AGOSTINHO (1136351)
 
-📋 Funcionalidades
-✅ Cadastro de veículos com validação de dados
-✅ Prevenção de duplicidade com base na placa
-✅ Listagem de veículos ordenados por nome
-✅ Busca de veículos por nome
-✅ Remoção por índice ou placa
-✅ Edição de nome, marca e placa
+Sistema de gerenciamento de veículos via terminal desenvolvido em Java
 
-🛠️ Tecnologias Utilizadas
-Java
-Programação Orientada a Objetos (POO)
-ArrayList (estrutura de dados dinâmica)
-Algoritmo de ordenação (Bubble Sort)
-Entrada de dados via Scanner
+📌 Foco em lógica, estrutura de dados e fundamentos sólidos de programação.
 
-🧱 Estrutura do Projeto
-📁 src
- ├── Main.java       // Classe principal com lógica do sistema
- └── Veiculo.java    // Classe modelo (entidade Veículo)
- 
-▶️ Como Executar
-Clone o repositório:
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Acesse a pasta do projeto:
-cd seu-repositorio
-Compile os arquivos:
-javac Main.java Veiculo.java
-Execute o programa:
-java Main
+🧾 ✦ Visão Geral
 
-💡 Conceitos Aplicados
+O SCV (Sistema de Controle de Veículos) é uma aplicação construída em Java com o objetivo de simular um sistema real de gerenciamento de veículos.
 
-Este projeto foi desenvolvido com foco na prática de
+O projeto foi desenvolvido com foco em construção de base técnica sólida, aplicando conceitos essenciais da programação que são fundamentais para sistemas maiores e mais complexos.
 
-Encapsulamento e organização de código
-Manipulação de coleções
-Validação de entrada de dados
-Lógica de programação aplicada
-Interação com o usuário via terminal
+⚙️ ✦ Funcionalidades 🚘 Cadastro de Veículos
 
-📌 Observações
-A identificação única dos veículos é feita pela placa, garantindo que não haja duplicidade no sistema.
-A ordenação dos veículos é realizada manualmente através do algoritmo Bubble Sort.
+Registro completo de veículos
+Entrada de dados estruturada (Nome, Marca, Placa)
+Validação de campos obrigatórios
+Bloqueio de duplicidade por placa
+📋 Gerenciamento
 
-👨‍💻 Autor
-Desenvolvido por Gabriel Carlos Rigo Agostinho, estudante de Ciências da Computação.
+Listagem ordenada por nome
+Busca de veículos por nome
+Contagem total de registros
+❌ Remoção
 
-🔗 LinkedIn: www.linkedin.com/in/gabecarloss
+Remoção por índice
+Remoção por placa
+✏️ Edição ~ Atualização de Nome ~ Atualização de Marca ~ Atualização de Placa
 
-<sub>README elaborado com auxílio de inteligência artificial.</sub>
+🧠 ✦ Conceitos Aplicados
+
+Conceito Aplicação 🔁 Estruturas de repetição Controle de fluxo 🔀 Condicionais Regras de negócio 🧱 POO Modelagem com classe Veiculo 🔒 Encapsulamento Proteção de dados 📦 ArrayList Manipulação dinâmica de dados 🔄 Ordenação Bubble Sort ✅ Validação Entrada de dados segura
+🧱 ✦ Estrutura do Projeto 📁 src ├── Main.java # Lógica principal e fluxo do sistema └── Veiculo.java # Modelo de dados (entidade)
+
+▶️ ✦ Execução javac Main.java Veiculo.java java Main 🚀 ✦ Roadmap (Evolução do Projeto)
+
+Interface gráfica (GUI)
+Persistência de dados (arquivo / banco de dados)
+Estrutura em camadas (arquitetura limpa)
+API REST com integração futura
+Testes automatizados
+👨‍💻 ✦ Autor
+
+Gabriel Carlos Rigo Agostinho 🎓 Estudante de Ciências da Computação
+
+🔗 LinkedIn: https://www.linkedin.com/in/gabecarloss
+
+💡 ✦ Posicionamento
+
+Este projeto representa a construção de uma base sólida em desenvolvimento de software, com foco em lógica, organização e evolução contínua para sistemas mais complexos.
+
+----------------------------------------------------------------------------------------------------------------------------------
+✨ README desenvolvido com auxílio de Inteligência Artificial.
